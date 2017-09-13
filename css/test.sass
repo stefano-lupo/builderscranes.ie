@@ -1,0 +1,388 @@
+$bp-tablet: 768px
+$bp-ls-tablet: 1025px
+$bp-md: 992px
+$desktop: 1200px
+
+$yellow: rgb(255, 228, 4)
+
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700')
+
+=transition()
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+=boxshadow()
+    -webkit-box-shadow: 0px 0px 37px 2px rgba(255,230,5,1);
+    -moz-box-shadow: 0px 0px 37px 2px rgba(255,230,5,1);
+    box-shadow: 0px 0px 37px 2px rgba(255,230,5,1);
+// Utility
+body
+    width: 100%
+    height: 100%
+    font-size: 16px
+    font-weight: 300
+    background-color: rgba(0,0,0,0.02)
+    font-family: 'Oswald', sans-serif
+    padding-top: 82px
+    
+@media(min-width:$desktop)
+    body
+        font-size: 20px
+        
+@media(max-width:991px)
+    body
+        text-align: center
+.border 
+    border: solid red 2px
+        
+.container
+    max-width: 1400px
+    width: 100%
+    background-color: white
+    padding: 5%
+    padding-bottom: 0
+    position: relative
+
+img 
+    margin: 0 auto 
+    
+.img-circle
+        padding: 4%    
+
+.darken
+    padding: 3%
+    height: 100%
+    background-color: rgba(0,0,0,0.6)
+    border-top: $yellow solid 3px
+    border-bottom: $yellow solid 3px
+
+a
+    color: black
+    border-bottom: solid 1px $yellow
+    text-decoration: none
+    +transition()
+    cursor: pointer
+    
+a:hover
+    color: black
+    text-decoration: none;
+    +transition()
+
+.btn
+    background-color: $yellow
+    color: rgba(0,0,0,0.8)
+    border: solid black 1px
+    +transition()
+    
+.btn:hover, .btn:focus
+    background-color: black
+    color: $yellow
+    +transition()
+    
+    
+@media(max-width: 991px)
+    .btn
+        width: 80%
+        display: block
+        margin: auto
+        max-width: 400px
+    
+//Typography
+h1
+    font-size: 250%
+h2
+    font-size: 200%
+h3
+    font-size: 150%
+h4
+    font-size: 110%
+
+
+//Navbar tablet collapse
+//@media(max-width:1024px)
+//    .navbar-header
+//        float: none
+//    .navbar-left, .navbar-right
+//        float: none !important
+//    .navbar-toggle
+//        display: block
+//    .navbar-collapse
+//        border-top: 1px solid transparent
+//        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1)
+//    .navbar-fixed-top
+//        top: 0
+//        border-width: 0 0 1px
+//    .navbar-collapse
+//        .collapse
+//            display: none !important
+//    .navbar-nav
+//        float: none !important
+//        margin-top: 7.5px
+//    .navbar-nav
+//        li
+//            float:none
+//            a
+//                padding-top: 10px
+//                padding-bottom: 10px
+//    .collapse
+//        .in
+//            display: block !important
+    
+//Navbar styling
+.navbar
+    margin-bottom: 0
+    border-bottom-width: 2px
+
+.navbar-default
+    background-color: white
+    border-color: $yellow
+    
+
+    .container
+//        border-bottom: solid $yellow 1px
+        
+
+//Main color
+.navbar-default
+    .navbar-nav
+        li
+            a
+                color: black
+                font-weight: 200
+                font-size: 150%
+                border-bottom: solid 1px transparent
+                +transition()
+                
+            a:hover, a:focus, a .active
+                +transition()
+                border-bottom: solid 1px $yellow
+                //font-size: 200%
+            
+//Scroll Spy
+.navbar-default
+    .navbar-nav
+        .active
+            a,
+            a:focus,
+            a:hover
+                background-color: purple
+                color: green
+                
+.navbar-brand
+    padding: 1%
+    border-bottom: 0
+    
+//Default -- Desktop
+nav
+    .container
+        padding: 20px
+.navbar-brand
+    img
+        height: 180%
+        margin-top: -20px
+        width: auto
+      
+//Mobile/Tablet
+@media(max-width:1023px)
+    .navbar-brand
+        img
+            margin-top: -4px
+            height: 130%
+    nav 
+        .container
+            padding: 15px
+    
+//Laptop/Landscape Tablet
+@media(min-width:1024px) and (max-width:1599px)
+    .navbar-brand
+        img
+            margin-top: -8px
+            height: 145%
+    nav
+        container
+            padding: 15px
+
+//Burger
+.navbar-default .navbar-toggle .icon-bar
+    background-color: $yellow
+.navbar-default .navbar-toggle 
+    background-color: black
+    color: #c7ab58
+    border: solid black 1px
+
+.navbar-default .navbar-toggle:focus 
+    background-color: white
+    border: solid 1px rgba(102, 153, 204, 1)
+
+            
+//Logo
+@media(max-width:1599px) 
+    #main-logo 
+        padding: 5%
+
+@media(max-width:1920px) and (min-width:1600px) 
+    #main-logo 
+        padding: 5%
+        
+     
+    
+
+
+header 
+    width: 100%
+    height: 100%
+   
+    background-color: white
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    background-image: url(../img/home/cranes-header-4-edited.jpg)
+    background-size: cover
+    background-position: right center
+
+    
+    .padding
+        padding: 10%
+            
+    h1,p
+        color: white
+        text-align: center
+    h1
+        .sub
+            font-size: 70%
+            font-weight: 200
+    @media(max-width: 374px)
+        h1
+            font-size: 220%
+
+@media(max-aspect-ratio: 1/1) 
+    header 
+        min-height: 500px
+        background-image: url(../img/home/cranes-portrait.jpg)
+        
+
+            
+
+            
+#four-services
+    background-color: rgba(0,0,0,0.0)
+    padding: 2% 2% 2% 2%
+    margin: 2px
+    border-top: solid $yellow 2px
+    border-bottom: solid $yellow 2px
+    
+    @media(max-width:991px)
+        .col-sm-6
+            padding-bottom: 20%
+
+#pdfs
+    .wrapper
+        padding: 5%
+
+        img
+            border: solid rgba(0,0,0,0.6) 1px
+            border-radius: 10px
+            padding: 15%
+        img:hover
+            border-color: $yellow
+            +transition()
+            +boxshadow()
+    a
+        font-weight: 500
+        text-decoration: underline
+    p
+        text-align: center
+            
+#top-products
+    text-align: center
+    
+    .card
+        padding-bottom: 20px
+         
+        
+        
+        
+        
+#contact 
+    input,
+    textarea 
+        width: 100%
+        padding: 10px
+        color: black
+    
+    button 
+
+        display: block
+        margin: auto
+        padding: 2% 6% 2% 6%
+
+    p 
+        text-align: center
+
+    #email-column 
+        width: 100%
+        max-width: 900px
+        margin: auto
+        margin-bottom: 10%      
+                
+        
+footer
+    background: #000000 
+    background: -webkit-linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.92))
+    background: linear-gradient(rgba(0,0,0,0.9) , rgba(0,0,0,0.92))
+    padding-bottom: 0
+    margin-bottom: 0
+        
+    @media(max-width:991px)
+        .col-md-3
+            padding-bottom: 15%
+        .col-md-4
+            padding-bottom: 15%
+    img 
+        max-height: 150px
+        
+    a
+        color: white
+        
+    a:hover
+        color: $yellow
+    
+    .container-fluid
+        background: transparent
+        padding-top: 1%
+        padding-bottom: 2%
+        max-width: 1600px
+    
+    h2,h3,h4,p
+        color: white;
+        text-align: center
+        
+    @media(min-width:1200px)    
+        #ireland-map    
+            max-width: 200px
+        
+#copyright
+    background-color: $yellow
+    text-align: center
+
+    a
+        color: black
+        font-weight: 400
+        border-bottom: solid 1px black
+    @media(min-width:768px)
+        .left
+            text-align: right
+        .right
+            text-align: left
+        
+        
