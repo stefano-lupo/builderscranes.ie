@@ -123,7 +123,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-4 col-sm-6">
                 <div class="wrapper">
                     <a href="pdfs/CBR21H-1.2_1.6.pdf" target="_blank"><img src="img/pdf_thumbs/cbr21_1.2_1.6.jpg" class="img-responsive">
                 </div>
@@ -131,7 +131,7 @@
                 </a>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-md-4 col-sm-6">
                 <div class="wrapper">
                     <a href="pdfs/CBR24H-2.pdf" target="_blank"><img src="img/pdf_thumbs/cbr24h-2.jpg" class="img-responsive">
                 </div>
@@ -139,7 +139,7 @@
                 </a>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-md-4 col-sm-6">
                 <div class="wrapper">
                     <a href="pdfs/CBR32-3.pdf" target="_blank"><img src="img/pdf_thumbs/cbr32-3.jpg" class="img-responsive">
                 </div>
@@ -147,59 +147,25 @@
                 </a>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-md-4 col-sm-6">
                 <div class="wrapper">
                     <a href="pdfs/CBR36H-4.pdf" target="_blank"><img src="img/pdf_thumbs/cbr36h-4.jpg" class="img-responsive">
                 </div>
                 <p>Comedil CBR 36H -4</p>
                 </a>
             </div>
-
-            <div class="col-sm-6">
+            <div class="col-md-4 col-sm-6">
                 <div class="wrapper">
                     <a href="pdfs/CBR40H-4.pdf" target="_blank"> <img src="img/pdf_thumbs/cbr40h-4.jpg" class="img-responsive">
                 </div>
                 <p>Comedil CBR 40H -4</p>
                 </a>
             </div>
-            
-            <div class="col-sm-6">
+            <div class="col-md-4 col-sm-6">
                 <div class="wrapper">
                     <a href="pdfs/FC6.24%20H.pdf" target="_blank"><img src="img/pdf_thumbs/fc6.jpg" class="img-responsive">
                 </div>
                 <p>Comedil FC 6.24H</p>
-                </a>
-            </div>
-
-            <div class="col-sm-6">
-                <div class="wrapper">
-                    <a href="pdfs/konig-k1025.pdf" target="_blank"><img src="img/pdf_thumbs/konig-k1025.jpg" class="img-responsive">
-                </div>
-                <p>Konig K 1025 H</p>
-                </a>
-            </div>
-
-            <div class="col-sm-6">
-                <div class="wrapper">
-                    <a href="pdfs/smh321.pdf" target="_blank"><img src="img/pdf_thumbs/smh321.jpg" class="img-responsive">
-                </div>
-                <p>SMH 321</p>
-                </a>
-            </div>
-
-            <div class="col-sm-6">
-                <div class="wrapper">
-                    <a href="pdfs/tc25.pdf" target="_blank"><img src="img/pdf_thumbs/tc25.jpg" class="img-responsive">
-                </div>
-                <p>Mantis TC 25</p>
-                </a>
-            </div>
-
-            <div class="col-sm-6">
-                <div class="wrapper">
-                    <a href="pdfs/vicario-36m.pdf" target="_blank"><img src="img/pdf_thumbs/vicario-36m.jpg" class="img-responsive">
-                </div>
-                <p>Vicario OMV 300</p>
                 </a>
             </div>
         </div>
@@ -220,9 +186,9 @@
                 <div class="thumbnail">
                     <img class="img-responsive img-circle" src="img/home/self-dumping-bin.jpg">
                     <div class="caption">
-                        <h3>Self-Tipping Skips</h3>
+                        <h3>Self-Tipping Ships</h3>
                         <div class="card">
-                            <p>We offer self-tipping skips from 250L up to 2000L for hire or sale.</p>
+                            <p>We offer self-tipping ships from 250L up to 2000L for hire or sale.</p>
                         </div>
                     </div>
                 </div>
@@ -231,9 +197,9 @@
                 <div class="thumbnail">
                     <img class="img-responsive img-circle" src="img/home/bucket.png">
                     <div class="caption">
-                        <h3>Concrete Skips</h3>
+                        <h3>Concrete Ships</h3>
                         <div class="card">
-                            <p>We also offer concrete skips from 250L up to 2000L for hire or sale.</p>
+                            <p>We also offer concrete ships from 250L up to 2000L for hire or sale.</p>
                         </div>
                 
                     </div>
@@ -354,8 +320,7 @@
             <div class="col-sm-6 left">
                 <p><i class="fa fa-copyright" aria-hidden="true"></i> Builder's Cranes 2017</p>
             </div>
-            <div class="col-sm-6 right">
-                <p>Designed by <a target="_blank" href="http://stefanolupo.com">Stefano Lupo</a></p>
+            <div class="col-sm-6 right">                <p>Designed by <a target="_blank" href="http://stefanolupo.tech/web-design.php">Stefano Lupo Web Design</a></p>
             </div>
         </div>
 
